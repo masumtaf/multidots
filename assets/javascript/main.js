@@ -7,7 +7,7 @@
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
-      },
+    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -33,6 +33,11 @@
   var swiper = new Swiper(".teamSwiper", {
     slidesPerView: 1,
     spaceBetween: 10,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -63,10 +68,10 @@ var swiper = new Swiper(".testimonialSwiper", {
     slidesPerView: 1,
     spaceBetween: 10,
     loop: true,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    //   },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
